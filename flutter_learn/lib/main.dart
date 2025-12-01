@@ -5,7 +5,9 @@ import 'package:flutter_learn/101/column_row_learn.dart';
 import 'package:flutter_learn/101/custom_widget_learn.dart';
 import 'package:flutter_learn/101/indicator_learn.dart';
 import 'package:flutter_learn/101/list_tile_learn.dart';
+import 'package:flutter_learn/101/list_view_builder.dart';
 import 'package:flutter_learn/101/list_view_learn.dart';
+import 'package:flutter_learn/101/navigation_learn.dart';
 import 'package:flutter_learn/101/page_view_learn.dart';
 import 'package:flutter_learn/101/stack_learn.dart';
 import 'package:flutter_learn/101/statefull_learn.dart';
@@ -13,6 +15,7 @@ import 'package:flutter_learn/101/statefull_life_cycle_learn.dart';
 import 'package:flutter_learn/101/text_field_learn.dart';
 import 'package:flutter_learn/demos/color_demos_view.dart';
 import 'package:flutter_learn/demos/color_life_cycle_view.dart';
+import 'package:flutter_learn/demos/my_collections_demos.dart';
 import 'package:flutter_learn/demos/node_demos_view.dart';
 import 'package:flutter_learn/demos/stack_demos_view.dart';
 
@@ -44,7 +47,7 @@ class MyApp extends StatelessWidget {
             elevation: 0,
             systemOverlayStyle: SystemUiOverlayStyle.light,
           )),
-      home: ListViewLearn(),
+      home: NavigationLearn(),
     );
   }
 }
