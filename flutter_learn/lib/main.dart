@@ -15,6 +15,8 @@ import 'package:flutter_learn/101/stack_learn.dart';
 import 'package:flutter_learn/101/statefull_learn.dart';
 import 'package:flutter_learn/101/statefull_life_cycle_learn.dart';
 import 'package:flutter_learn/101/text_field_learn.dart';
+import 'package:flutter_learn/202/cache/secure_context/secure_context_learn.dart';
+import 'package:flutter_learn/202/cache/shared_learn_cache.dart';
 import 'package:flutter_learn/202/model_learn_view.dart';
 import 'package:flutter_learn/202/tab_learn.dart';
 import 'package:flutter_learn/demos/color_demos_view.dart';
@@ -60,7 +62,7 @@ class MyApp extends StatelessWidget {
             elevation: 0,
             systemOverlayStyle: SystemUiOverlayStyle.light,
           )),
-      home: ModelLearnView(),
+      home: ShareContextLearn(),
     );
   }
 }
